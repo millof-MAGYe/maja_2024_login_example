@@ -1,4 +1,5 @@
-import type { PageServerLoad } from './$types';
+import { prisma } from '$lib';
+import type { Actions, PageServerLoad } from './$types';
 
 export const load = (async () => {
     return {};
