@@ -10,3 +10,4 @@
   <button>LOGOUT</button>
 </form>
 
+<a href="/image">Image</a> 
