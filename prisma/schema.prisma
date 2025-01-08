@@ -15,3 +15,8 @@ model user {
   username String @unique
   password String
 }
+
+model image {
+  id String @id @default(uuid())
+  encoding String
+}
